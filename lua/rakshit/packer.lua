@@ -13,6 +13,9 @@ require('packer').startup(function(use)
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 	use 'gruvbox-community/gruvbox' -- Gruvbox colorscheme
 
+	-- File Explorer
+	use { 'nvim-tree/nvim-tree.lua' }
+
 	-- Fuzzy Finder
 	use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' } }
 
