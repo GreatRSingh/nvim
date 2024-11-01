@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["dart-vim-plugin"] = {
+    loaded = true,
+    path = "/home/rakshit/.local/share/nvim/site/pack/packer/start/dart-vim-plugin",
+    url = "https://github.com/dart-lang/dart-vim-plugin"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/rakshit/.local/share/nvim/site/pack/packer/start/gruvbox",
@@ -113,6 +118,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rakshit/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-lsc"] = {
+    loaded = true,
+    path = "/home/rakshit/.local/share/nvim/site/pack/packer/start/vim-lsc",
+    url = "https://github.com/natebosch/vim-lsc"
+  },
+  ["vim-lsc-dart"] = {
+    loaded = true,
+    path = "/home/rakshit/.local/share/nvim/site/pack/packer/start/vim-lsc-dart",
+    url = "https://github.com/natebosch/vim-lsc-dart"
   }
 }
 

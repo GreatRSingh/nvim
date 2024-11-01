@@ -19,4 +19,8 @@ require('packer').startup(function(use)
 	-- Fuzzy Finder
 	use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' } }
 
+        -- Flutter Setup
+        use 'dart-lang/dart-vim-plugin'
+        use 'natebosch/vim-lsc'
+        use 'natebosch/vim-lsc-dart'
 end)
