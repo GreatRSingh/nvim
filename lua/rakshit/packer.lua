@@ -19,6 +19,13 @@ require('packer').startup(function(use)
 	-- Fuzzy Finder
 	use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' } }
 
+        -- LSP Config
+        use {
+            "williamboman/mason.nvim",
+            "williamboman/mason-lspconfig.nvim",
+            "neovim/nvim-lspconfig",
+        }
+
         -- Flutter Setup
         use 'dart-lang/dart-vim-plugin'
         use 'natebosch/vim-lsc'
