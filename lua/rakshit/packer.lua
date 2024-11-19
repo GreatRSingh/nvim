@@ -4,7 +4,7 @@ require('packer').startup(function(use)
 
 	-- Package Manager itself
 	use 'wbthomason/packer.nvim'
-	
+
 	-- UI Enhancements
 	use 'nvim-lualine/lualine.nvim' -- Statusline
 	use 'kyazdani42/nvim-web-devicons' -- Icons
